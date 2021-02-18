@@ -6,11 +6,11 @@ title: About
 For many years I've been trying to make something of my life, well after all I'm almost getting my PhD done and realized that I should have done more. Thus, as an ordinary gay man lost in a country that is constantly trying to kill me for my sexual orientation I wonder what still holds me back? Well, let Nina Simone sing this for you: 
 
 <p class="message">
-  Ain't got no home, ain't got no shoes
-  Ain't got no money, ain't got no class
-  Ain't got no friends, ain't got no schooling
-  Ain't got no wear, ain't got no job
-  Ain't got no money, no place to stay
+  Ain't got no home, ain't got no shoes</br>
+  Ain't got no money, ain't got no class</br>
+  Ain't got no friends, ain't got no schooling</br>
+  Ain't got no wear, ain't got no job</br>
+  Ain't got no money, no place to stay</br>
 </p>
 
 Well, despite having some friends - good ones - and having get such a high education degree as a PhD I still without money, place to live, job and the list goes on. I'm not trying to make fun of any of those issues, or being sarcastic, nor dramatic. But let face the true. Who am I? Did you know me? Have you ever heard about me? I bet the answer is a flatter no, and that's ok. What I'm trying to say is that I'm by no means special, sugar coated person. However, I'm a person like you, who needs to pay the bills, have some food and survive. Well, survive from anyone who is trying to kill you because you are, ahnmm, you are ... well, you know. Gay.
