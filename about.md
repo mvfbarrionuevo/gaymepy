@@ -19,4 +19,4 @@ So, yeah. That's it. I'm a human being, gay, poor, English is my fourth language
 
 Please, let me help to spread the word of science, love, humanity and kindness and let me know anything that I can't do for your, perhaps we could schedule a talk through Zoom or Google Meet, we could change emails, send letters, gifts, chocolates, a cake recipe or a scientific partnership :), who knows?
 
-Well, if you want to know more about me, perhaps there are a few ways to do so. One is to [follow me on Twitter](https://twitter.com/BarrionuevoMVF) or [sending me an email](manoelvfb@gmail.com).
+Well, if you want to know more about me, perhaps there are a few ways to do so. One is to [follow me on Twitter](https://twitter.com/BarrionuevoMVF) or sending me an email at manoelvfb@gmail.com.
