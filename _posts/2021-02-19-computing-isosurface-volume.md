@@ -113,7 +113,7 @@ Vm = sqrt(sum(M**2, axis = 1))
 voxel = Vm.prod() / points.prod()
 {% endhighlight %}
 
-Now we can calculate the bohr volume, then convert it to any unit we like. I will present the conversion to $\AA$ and cm$^3$/mol.
+Now we can calculate the bohr volume, then convert it to any unit we like. I will present the conversion to &#8491; and cm$^3$/mol.
 {: style="text-align: justify"}
 
 {% highlight python %}
@@ -136,7 +136,7 @@ Bellow are some results that I got by using Quantum-ESPRESSO generated cube file
   <thead>
     <tr>
       <th>Molecule</th>
-      <th>$\AA^3$</th>
+      <th>&#8491;$^3$</th>
       <th>bohr$^3$</th>
       <th>cm$^3$/mol</th>
     </tr>
