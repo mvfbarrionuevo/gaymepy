@@ -44,7 +44,8 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Images
 
-![Pika]({{ site.url }}/GayMePy/images/pikachu.jpg)
+![Pika]({{ site.url }}/GayMePy/images/pikachu.jpg "Pika pika pikachuumm")
+{:.tofigure}
 
 ### Lists
 
