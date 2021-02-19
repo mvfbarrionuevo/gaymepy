@@ -40,7 +40,7 @@ So, yeah. That's it. I'm a human being, gay, poor, English is my fourth language
 
 Please, let me help to spread the word of science, love, humanity and kindness and let me know anything that I can do for you, perhaps we could schedule a talk through Zoom or Google Meet (it just must be free, you know that, ain't got no money), we could send emails to each other or letters, gifts, chocolates, a cake recipe, either a scientific partnership :), who knows!?
 
-Well, if you want to know more about me, perhaps there are a few ways to do so. One is to [follow me on Twitter](https://twitter.com/BarrionuevoMVF) or sending me an email at <a href="manoelvfb@gmail.com">manoelvfb@gmail.com</a>.
+Well, if you want to know more about me, perhaps there are a few ways to do so. One is to [follow me on Twitter](https://twitter.com/BarrionuevoMVF) or [sending me an email](mailto:manoelvfb@gmail.com).
 
 {:refdef: style="text-align: center;"}
 ![Pika]({{ site.url }}/GayMePy/images/me.jpg "It's me! Manoel!"){:height="60%" width="60%" .center-image}
