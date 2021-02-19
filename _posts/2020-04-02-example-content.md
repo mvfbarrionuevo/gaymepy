@@ -52,11 +52,11 @@ Oh no, Pikachu is doing MATH!
 
 $$
 \begin{equation}
-h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}\tag{p}\label{eqo}
+h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}\label{eqo}
 \end{equation}
 $$
 
-Pikachu has done equation \eqref{eo}.
+Pikachu has done equation \eqref{eqo}.
 
 ### Lists
 
