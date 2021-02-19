@@ -30,10 +30,10 @@ Yeah, yeah, I know. It seems I'm some sort of weirdo that jokes with dangerous s
 By the way, here are some curiosities about me:
 
 * I grew up in a heavily influenced japanese colony in Brazil;
-* I speak four languages and they can be arranged like this: Portuguese > English > Spanish > French;
+* I speak four languages and they can be arranged like this: Portuguese > Spanish > French > English;
 * I like to watch animations (not necessarily japanese anime, which I'm not that fan of);
 * I spend most of my time writing codes and wondering around;
-* I do love cats, cats, and cats. Have I said that I love cat? I think God is a cat (he maybe hate us all);
+* I do love cats, cats, and cats. Have I said that I love cat? I think God is a cat (he may hates us all);
 * I'm very shy and people seem to not understand that;
 * According to Dante Alighieri, currently I'm in the middle of the way (guess my age folks).
 
