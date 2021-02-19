@@ -44,7 +44,7 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Images
 
-{% include image.html max-width="200px" file="pikachu.jpg" alt="Jekyll logo" caption="This is the Jekyll logo." %}
+{% include image.html max-width="200px" url="/images/pikachu.jpg" alt="Pikachu" caption="Pika pika pikachu." %}
 
 ### Lists
 
