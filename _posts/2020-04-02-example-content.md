@@ -44,7 +44,7 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Images
 
-{% include image.html max-width="200px" url="/images/pikachu.jpg" alt="Pikachu" caption="Pika pika pikachu." %}
+![Pika]({{ site.url }}/images/pikachu.jpg)
 
 ### Lists
 
