@@ -278,6 +278,14 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+.blocktxt {
+  margin-bottom: 0rem;
+  font-family: monospace;
+  font-size: .875rem;
+  padding: 0rem;
+  color: #717171;
+  background-color: #f9f9f9;
+}
 
 /*
  * Container
@@ -432,4 +440,8 @@ a.pagination-item:hover {
 .center-image{
   margin: 0 auto;
   display: block;
+}
+
+.text-justify{
+  text-align: justify;
 }
