@@ -44,7 +44,8 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Images
 
-{ % include image.html url="{{ site.url }}/GayMePy/images/pikachu.jpg" description="An ordinary Pikachu. He's doing something..." widht="100px" hight="100px" %}
+|![Pika]({{ site.url }}/GayMePy/images/pikachu.jpg "Pika pika pikachuumm"){:height="50%" width="50%"}|
+| *Figure: An ordinary Pikachu. He's doing something...* |
 
 Oh no, Pikachu is doing MATH!
 
