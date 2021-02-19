@@ -50,7 +50,13 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 Oh no, Pikachu is doing MATH!
 
-$h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$
+$$
+\begin{equation}
+h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}\tag{p}\label{eqo}
+\end{equation}
+$$
+
+Pikachu has done equation \eqref{eo}.
 
 ### Lists
 
