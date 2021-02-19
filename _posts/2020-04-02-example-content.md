@@ -44,7 +44,8 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Images
 
-![Pika]({{ page.url }}/images/pikachu.jpg)
+{% include image.html url="https://github.com/mvfbarrionuevo/GayMePy/images" max-width="200px" file="pikachu.jpg" alt="Jekyll logo" caption="This is the Jekyll logo." %}
+
 ### Lists
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
