@@ -52,11 +52,11 @@ Oh no, Pikachu is doing MATH!
 
 \$\$
 \begin{equation}
-x + y = 10\tag{1}
+x + y = 10\tag{1}\label{eqo}
 \end{equation}
 \$\$
 
-Pikachu has done equation [1](#mjx-eqn-eq1).
+Pikachu has done equation [1](#mjx-eqn-eqo).
 
 ### Lists
 
@@ -131,4 +131,4 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 
 Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
 
-Oh no, Pikachu has done equation [1](#mjx-eqn-eq1) again!
+Oh no, Pikachu has done equation [1](#mjx-eqn-eqo) again!
