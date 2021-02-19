@@ -281,7 +281,7 @@ tbody tr:nth-child(odd) th {
 .blocktxt {
   margin-bottom: 0rem;
   font-family: monospace;
-  font-size: .875rem;
+  font-size: .65rem;
   padding: 0rem;
   color: #717171;
   background-color: #f9f9f9;
@@ -399,7 +399,7 @@ tbody tr:nth-child(odd) th {
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Pagination items can be `span`s or `a`s */
@@ -442,6 +442,3 @@ a.pagination-item:hover {
   display: block;
 }
 
-.text-justify{
-  text-align: justify;
-}

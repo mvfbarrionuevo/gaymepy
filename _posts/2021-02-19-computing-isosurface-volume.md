@@ -14,8 +14,8 @@ All those informations are typically stored in the header of the cube files, whi
 {: refdef}
 
 <div class="blocktxt">
-CPMD CUBE FILE.
- OUTER LOOP: X, MIDDLE LOOP: Y, INNER LOOP: Z
+CPMD CUBE FILE.<br>
+ OUTER LOOP: X, MIDDLE LOOP: Y, INNER LOOP: Z<br>
     3 &nbsp; 0.000000 &nbsp; 0.000000 &nbsp; 0.000000 &nbsp;<br>
    40 &nbsp; 0.283459 &nbsp; 0.000000 &nbsp; 0.000000 &nbsp;<br>
    40 &nbsp; 0.000000 &nbsp; 0.283459 &nbsp; 0.000000 &nbsp;<br>
