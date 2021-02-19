@@ -23,7 +23,7 @@ Well, despite having some friends - good ones - and having get such a high educa
 Yeah, yeah, I know. It seems I'm some sort of weirdo that jokes with dangerous stuff. However, I found if funny to laugh instead of falling in despair. Isn't that right? That's how I feel:
 
 {:refdef: style="text-align: center;"}
-![Pika]({{ site.url }}/GayMePy/images/woody.jpg "Burnnn baby, buuurrnnn"){:height="100%" width="100%" .center-image}
+![Pika]({{ site.url }}/GayMePy/images/woody.jpg "Burnnn baby, buuurrnnn"){:height="50%" width="50%" .center-image}
 **Figure 2**: *Burning in hell!*
 {: refdef}
 
@@ -44,6 +44,6 @@ Please, let me help to spread the word of science, love, humanity and kindness a
 Well, if you want to know more about me, perhaps there are a few ways to do so. One is to [follow me on Twitter](https://twitter.com/BarrionuevoMVF) or sending me an email at manoelvfb@gmail.com.
 
 {:refdef: style="text-align: center;"}
-![Pika]({{ site.url }}/GayMePy/images/me.jpg "It's me! Manoel!"){:height="50%" width="50%" .center-image}
+![Pika]({{ site.url }}/GayMePy/images/me.jpg "It's me! Manoel!"){:height="60%" width="60%" .center-image}
 **Figure 3**: *That's me!*
 {: refdef}
