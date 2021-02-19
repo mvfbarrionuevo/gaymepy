@@ -13,7 +13,7 @@ For many years I've been trying to make something of my life, well after all I'm
   Ain't got no money, no place to stay<br>
 </p>
 
-Well, despite having some friends - good ones - and having get such a high education degree as a PhD I still without money, place to live, job and the list goes on. I'm not trying to make fun of any of those issues, or being sarcastic, nor dramatic. But lets face the true. Who am I? Did you know me? Have you ever heard about me? I bet the answer is a flatter no, and that's ok. What I'm trying to say is that I'm by no means special, sugar coated person. However, I'm a person like you, who needs to pay the bills, have some food and survive. Well, survive from anyone who is trying to kill you because you are, ahnmm, you are ... well, you know. Gay. So, in order to make fun of the disgraces we face, I like to joke with this:
+Well, despite having some friends - good ones - and having get such a high education degree as a PhD I still without money, place to live, job and the list goes on. I'm not trying to make fun of any of those issues, or being sarcastic, nor dramatic. But lets face the truth. Who am I? Did you know me? Have you ever heard about me? I bet the answer is a flatter no, and that's ok. What I'm trying to say is that I'm by no means special, sugar coated person. However, I'm a person like you, who needs to pay the bills, have some food and survive. Well, survive from anyone who is trying to kill you because you are, ahnmm, you are ... well, you know. Gay. So, in order to make fun of the disgraces we face, I like to joke with this:
 
 {:refdef: style="text-align: center;"}
 ![Pika]({{ site.url }}/GayMePy/images/mateme.png "Kill me"){:height="50%" width="50%" .center-image}
