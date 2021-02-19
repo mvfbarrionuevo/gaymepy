@@ -50,11 +50,11 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 Oh no, Pikachu is doing MATH!
 
-$$
+\$\$
 \begin{equation}
-h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}\label{eqo}
+x + y = 10
 \end{equation}
-$$
+\$\$
 
 Pikachu has done equation \eqref{eqo}.
 
