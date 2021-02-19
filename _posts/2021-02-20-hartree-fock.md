@@ -4,7 +4,7 @@ title: Hartree-Fock
 ---
 
 {:refdef: style="text-align: center;"}
-![Pika]({{ site.url }}/GayMePy/images/hf.png "Hartree-Fock"){:height="50%" width="50%" .center-image}
+![Pika]({{ site.url }}/GayMePy/images/hf.png "Hartree-Fock"){:height="70%" width="70%" .center-image}
 {: refdef}
 
 Soooo! How are you doing? Have you ever heard about the new gospel of Hartree-Fock? Yeah, I know you knew I would come to this. Sure, why not?!
