@@ -7,22 +7,25 @@ title: Computing isosurface volume
 ![Pika]({{ site.url }}/GayMePy/images/dmf.png "DMF"){:height="50%" width="50%" .center-image}
 {: refdef}
 
-So my first writing is going to be about something that brought me joy. No, seriously, it did really bring me joy! I'm not kidding. Because, as you may have guessed, I do love python programming language and nothing could bring me more joy then figuring out things from nowhere.
+So my first writing is going to be about something that brought me joy. No, seriously, it did really bring me joy! I’m not kidding. Because, as you may have guessed, I do love python programming language and nothing could bring me more joy than figuring out things from nowhere.
 {: style="text-align: justify"}
 
-First, be advised that I'm not a professional programmer, neither a computer scientist, and most of the things I know now about dealing with computational things related to chemistry I learned by trial-and-error. Therefore, do not expect to find here the state of the art of anything. Now, without further ado let's dive in.
+First, be advised that I’m not a professional programmer, neither a computer scientist and most of the things I know now about dealing with computational things related to chemistry I learned by trial-and-error. Therefore, do not expect to find here the state of the art of anything. Now, without further ado let’s dive in.
 {: style="text-align: justify"}
 
-Suppose you have computed the electronic density of your system $\rho(\tau)$ and exported it using a Gaussian cube file format - currently you can do it in almost any software out there as Quantum-ESPRESSO, Orca, GAMESS, VASP, Crystal, the list goes on.
+Suppose you have computed the electronic density of your system $\rho(\tau)$ and exported it using a Gaussian cube file format - currently, you can do it in almost any software out there as Quantum-ESPRESSO, Orca, GAMESS, VASP, Crystal, the list goes on.
 {: style="text-align: justify"}
 
-As you may have noticed, the density is a function of $\tau$, which represents three dimensions $x$, $y$, and $z$. Since the gaussian cube file format makes use of the bohr radius unit, a finite representation that encompasses all the electronic density must be sampled in that unit system.
+As you may have noticed, the density is a function of $\tau$, which represents three dimensions $x$, $y$, and $z$.
 {: style="text-align: justify"}
 
-The quality of the sample will be given by the size of the grid that was used to write each voxel of the cube. A voxel can be understood as "a 3D pixel" - please, forgive me lords of CS and gods of CG (and some academics).
+Since the gaussian cube file format makes use of the bohr radius unit, a finite representation that encompasses all the electronic density must be sampled in that unit system.
 {: style="text-align: justify"}
 
-All those informations are typically stored in the header of the cube files, which can be found as the example bellow:
+The quality of the sample will be given by the size of the grid that was used to write each voxel of the cube. A voxel can be understood as “a 3D pixel” - please, forgive me lords of CS and gods of CG (and some academics).
+{: style="text-align: justify"}
+
+All those information are typically stored in the header of the cube files, which can be found as the example below:
 {: style="text-align: justify"}
 
 <div class="message" style='font-size=50%'>
@@ -47,7 +50,7 @@ In this case there will be 40x40x40 floating point values
 </pre>
 </div>
 
-The first two lines are just labels, an the third line is the number of atoms and origin position for the given cube file. Yet, the next three represents the number of points in each axis, along with the vector that describes that axis.
+The first two lines are just labels, and the third line is the number of atoms and origin position for the given cube file. Yet, the next three represents the number of points in each axis, along with the vector that describes that axis.
 {: style="text-align: justify"}
 
 Finally, you will be given a table that should have the same number of lines as the number of atoms. For three atoms, as our example, you will see three lines. Each line starts with the atom $Z$ number and its position.
@@ -56,7 +59,7 @@ Finally, you will be given a table that should have the same number of lines as 
 All the remaining data will be printed in a very peculiar order. As a cube comprises three dimensions, one should expect that each slice of the cube will be printed as a 2D matrix.
 {: style="text-align: justify"}
 
-Indeed, that's what happens, and roughly speaking that matrix is written as a n$\times$6 table, according to the code bellow:
+Indeed, that's what happens, and roughly speaking that matrix is written as a n$\times$6 table, according to the code below:
 {: style="text-align: justify"}
 
 {% highlight python %}
@@ -69,13 +72,13 @@ for ix in range(NX):
       print("\n")
 {% endhighlight %}
 
-Therefore, as we are going to compute only the volume of a given isosurface, we are interested in identify which value of $\rho(\tau)$ is within the isosurface value of our choice.   
+Therefore, as we are going to compute only the volume of a given isosurface, we are interested in identifying which value of $\rho(\tau)$ is within the isosurface value of our choice.   
 {: style="text-align: justify"}
 
 Once we identified those values, we can sum them up and multiply them to the cubic value of one voxel. However, we need to compute the voxel volume before going on in our quest.
 {: style="text-align: justify"}
 
-Hence, let's retrieve the size of each axis, the matrix of the cube lattice and the sum of all the values that is higher then a specified isosurface value.
+Hence, let's retrieve the size of each axis, the matrix of the cube lattice and the sum of all the values that are higher than a specified isosurface value.
 {: style="text-align: justify"}
 
 {% highlight python %}
@@ -101,10 +104,10 @@ with open(CUBE, 'r') as cube:
         idx += 1
 {% endhighlight %}
 
-Once we got those values we can proceed to some computations. For instance, to determine the voxel volume we need to compute the total volume of the cube and devide it by the number of voxels within the cube.
+Once we got those values we can proceed to some computations. For instance, to determine the voxel volume we need to compute the total volume of the cube and divide it by the number of voxels within the cube.
 {: style="text-align: justify"}
 
-As the matrix **M**, from our code, is the reduced matrix of the cube, we need to get the original matrix back by multiplying it to number of points of each axis. So, here is the trick:
+As matrix **M**, from our code, is the reduced matrix of the cube, we need to get the original matrix back by multiplying it by the number of points of each axis. So, here is the trick:
 {: style="text-align: justify"}
 
 {% highlight python %}
@@ -129,7 +132,7 @@ Vcmmol = ((Va * A2m) * Na) * m3tocm3
 Now, we can print the result and get the volume from variables Vbohr, Va, and Vcmmol for  bohr$^3$, angstrom$^3$ and cm$^3$/mol, respectively.
 {: style="text-align: justify"}
 
-Bellow are some results that I got by using Quantum-ESPRESSO generated cube files for Ar, CO$_2$ and DMF by employing an isosurface value of 0.001 bohr radius.
+Below are some results that I got by using Quantum-ESPRESSO generated cube files for Ar, CO$_2$ and DMF by employing an isosurface value of 0.001 bohr radius.
 {: style="text-align: justify"}
 
 <table>
@@ -163,4 +166,4 @@ Bellow are some results that I got by using Quantum-ESPRESSO generated cube file
   </tbody>
 </table>
 
-Sure you can easily plug and play with this code, create your own script that automates the process and make functions out of those routines. I also recommend you to usy the package prettytables from python. It is wonderful. :)
+Sure you can easily plug and play with this code, create your own script that automates the process and make functions out of those routines. I also recommend you to use the package prettytables from python. It is wonderful. :)
