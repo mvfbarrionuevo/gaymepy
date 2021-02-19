@@ -278,15 +278,6 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-.blocktxt {
-  margin-bottom: 0rem;
-  font-family: monospace;
-  font-size: .65rem;
-  padding: 0rem;
-  color: #717171;
-  background-color: #f9f9f9;
-}
-
 /*
  * Container
  *

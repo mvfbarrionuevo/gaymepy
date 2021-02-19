@@ -3,17 +3,19 @@ layout: post
 title: Computing isosurface volume
 ---
 
-{:refdef: style="text-align: justify;"}
 So my first writing is going to be about something that brought me joy. No, seriously, it doest really brought me joy! I'm not kidding. Because, as you may have guessed, I do love python programming language and nothing could bring me more joy then figuring out things from nowhere.
+{: .text-justify}
 
 First, be advised that I'm not a professional programmer, neither a computer scientist, and most of the things I know now about dealing with computational things related to chemistry I learned by trial-and-error. Therefore, do not expect to find here the state of the art of anything. Now, without further ado let's dive in.
+{: .text-justify}
 
 Suppose you have computed the electronic density of your system $\rho(\tau)$ and exported it using a Gaussian cube file format. As you may have noticed, the density is a function of $\tau$, which represents three dimensions $x$, $y$, and $z$. Since the gaussian cube file format makes use of the bohr radius unit, a finite representation that encompasses all the electronic density must be sampled. The quality of the sample will be given by the size of the grid that was used to write each voxel of the cube. A voxel can be understood as "a 3D pixel" - please, forgive me lords of CS.
+{: .text-justify}
 
 All those informations are typically stored in the header of the cube files, which can be found as the example bellow:
-{: refdef}
+{: .text-justify}
 
-<div class="blocktxt">
+<div class="message" style='font-size=70%'>
 CPMD CUBE FILE.<br>
  OUTER LOOP: X, MIDDLE LOOP: Y, INNER LOOP: Z<br>
     3 &nbsp; 0.000000 &nbsp; 0.000000 &nbsp; 0.000000 &nbsp;<br>
