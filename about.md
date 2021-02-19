@@ -39,7 +39,7 @@ By the way, here are some curiosities about me:
 
 So, yeah. That's it. I'm a human being, gay, poor, English is my fourth language (so please be kind to my grammar mistakes), and it happens to me that I like to do scientific stuff out there, mostly related to computational chemistry - or spooky programming stuff (yeah that's a bad joke). This blog is about it, is about being human, face the life's challenges - particularly if you live in a developing country, a conservative and opressive one that hates you, which is called Brazil. Welcome to this humble page, where I will try to present things that I like, and bring some discussions to the table.
 
-Please, let me help to spread the word of science, love, humanity and kindness and let me know anything that I can do for your, perhaps we could schedule a talk through Zoom or Google Meet (it just must to be free, you know that, ain't got no money), we could change emails, send letters, gifts, chocolates, a cake recipe or a scientific partnership :), who knows!?
+Please, let me help to spread the word of science, love, humanity and kindness and let me know anything that I can do for your, perhaps we could schedule a talk through Zoom or Google Meet (it just must to be free, you know that, ain't got no money), we could exchange emails, send letters, gifts, chocolates, a cake recipe or a scientific partnership :), who knows!?
 
 Well, if you want to know more about me, perhaps there are a few ways to do so. One is to [follow me on Twitter](https://twitter.com/BarrionuevoMVF) or sending me an email at manoelvfb@gmail.com.
 
