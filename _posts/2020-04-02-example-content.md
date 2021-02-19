@@ -52,11 +52,11 @@ Oh no, Pikachu is doing MATH!
 
 \$\$
 \begin{equation}
-x + y = 10
+x + y = 10\tag{1}
 \end{equation}
 \$\$
 
-Pikachu has done equation \eqref{eqo}.
+Pikachu has done equation [1](#mjx-eqn-eq1).
 
 ### Lists
 
