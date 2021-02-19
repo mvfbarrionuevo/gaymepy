@@ -44,7 +44,7 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Images
 
-![Pika]({{ site.url }}/figures/pikachu.jpg)
+![Pika]({{ /figures/pikachu.jpg | absolute_url }})
 
 ### Lists
 
