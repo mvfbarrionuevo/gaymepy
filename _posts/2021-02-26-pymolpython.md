@@ -36,7 +36,7 @@ wd = getcwd()
 for folder in ['A', 'B', 'C', 'D']:
     chdir('%s/%s'.format(wd, folder))
     cmd.load('%s.xyz' % folder.lower())
-{%"endhighlight %}
+{% endhighlight %}
 
 So, note that we have used two ways of giving python the string variables. When using python's module chdir we used 'format', but when using pymol's module cmd we used the old-fashioned way with % symbol. Why, would you ask? Well, I might not be the all-knowing clever person in this world, but as far as I have experienced, sometimes pymol just crashes if I don't use this old fashion style and it is most likely to be linked with how it handles special symbols ¯\_(ツ)_/¯.
 {: style="text-align: justify"}
