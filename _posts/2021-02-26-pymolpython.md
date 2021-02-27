@@ -194,15 +194,3 @@ for folder in ['A', 'B', 'C', 'D']:
 
 That's all, folks! Hope you all liked it. :)
 {: style="text-align: justify"}
-
-<!-- COMMENTS START -->
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 3350; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: false,
-        id: false
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-<!-- COMMENTS END -->

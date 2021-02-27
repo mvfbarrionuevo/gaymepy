@@ -167,15 +167,3 @@ Below are some results that I got by using Quantum-ESPRESSO generated cube files
 </table>
 
 Sure you can easily plug and play with this code, create your own script that automates the process and make functions out of those routines. I also recommend you to use the package prettytables from python. It is wonderful. :)
-
-<!-- COMMENTS START -->
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 3350; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: false,
-        id: false
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-<!-- COMMENTS END -->
