@@ -177,5 +177,5 @@ Sure you can easily plug and play with this code, create your own script that au
         id: false
     };
 </script>
-i<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
 <!-- COMMENTS END -->

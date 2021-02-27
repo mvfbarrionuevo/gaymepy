@@ -4,7 +4,7 @@ tagline:             'Gay Python Guide in Computational Chemistry'
 description:         'This is an attempt of mine to bring some colours to the gay scientific community, in particular to the computational chemist folks.'
 url:                 https://mvfbarrionuevo.github.io
 baseurl:             '/GayMePy'
-paginate:            5
+paginate:            1
 permalink:           pretty
 
 # About/contact
