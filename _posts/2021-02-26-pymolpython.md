@@ -38,7 +38,7 @@ for folder in ['A', 'B', 'C', 'D']:
     cmd.load('%s.xyz' % folder.lower())
 {% endhighlight %}
 
-So, note that we have used two ways of giving python the string variables. When using python's module chdir we used 'format', but when using pymol's module cmd we used the old-fashioned way with % symbol. Why, would you ask? Well, I might not be the all-knowing clever person in this world, but as far as I have experienced, sometimes pymol just crashes if I don't use this old fashion style and it is most likely to be linked with how it handles special symbols ¯\\_(ツ)_/¯.
+So, note that we have used two ways of giving python the string variables. When using python's module chdir we used 'format', but when using pymol's module cmd we used the old-fashioned way with % symbol. Why, would you ask? Well, I might not be the all-knowing clever person in this world, but as far as I have experienced, sometimes pymol just crashes if I don't use this old fashion style and it is most likely to be linked with how it handles special symbols ¯\\\_(ツ)\_/¯.
 {: style="text-align: justify"}
 
 So, now that we have that done, we need to define a dictionary of atoms to be used when iterating among the atomic species of our structure. In my case, as I said, we have just Pt and Ni, thus we can proceed like this:
