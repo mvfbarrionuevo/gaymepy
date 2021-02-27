@@ -83,7 +83,7 @@ def distance(atom1, atom2, d, c, r):
                 Lni.append(ni1)
 {% endhighlight %}
 
-There there! Look that we have defined a function called *distance* and it takes four arguments, where the first and second are the pair of atoms to be measured then it gets the distance and counting variables we defined, and finally, it gets the radius of the coordination sphere. For us, a value of 3.0 $\AA$ is enough.
+There there! Look that we have defined a function called *distance* and it takes four arguments, where the first and second are the pair of atoms to be measured then it gets the distance and counting variables we defined, and finally, it gets the radius of the coordination sphere. For us, a value of 3.0 &#8491; is enough.
 {: style="text-align: justify"}
 
 Now that we have all the values we want, we might be able to compute the average of the distances we wanted. But, lo! Remind yourself that you might find some coordination spheres where there might be pure Pt or pure Ni, thus the Pt-Ni pairs shall present zero as value. For now, I'm not quite sure if the solution I use is the best one out there, but I'm sure it works. So, forgive me all the gods of computer science out there. Here it goes:
