@@ -1,0 +1,25 @@
+# Setup
+title:               GayMePy
+tagline:             'Gay Python Guide in Computational Chemistry'
+description:         'This is an attempt of mine to bring some colours to the gay scientific community, in particular to the computational chemist folks.'
+url:                 https://mvfbarrionuevo.github.io
+baseurl:             '/GayMePy'
+paginate:            1
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Manoel Barrionuevo
+  url:               https://twitter.com/BarrionuevoMVF
+  email:             manoelvfb@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: G-RSZCZPT69V
+
+# Permalink
+permalink: /:title
